@@ -293,11 +293,17 @@
     margin-bottom: 8px;
 }
 
+.projects .section-title {
+    margin-left: 65px;
+}
+
+
 .project-title {
     font-size: 2.2rem;
     font-family: 'Klemer Display', sans-serif;
     margin-bottom: 15px;
     color: var(--white);
+    
 }
 
 .project-description {
@@ -389,6 +395,10 @@
 .about {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.about .section-title {
+    text-align: center;
 }
 
 .about-intro {
