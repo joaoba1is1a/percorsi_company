@@ -1,20 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     
-    const logoVideo = document.querySelector('.hero-video-container video');
-
-    const velocidadeNormal = 1.0;
-    const velocidadeHover = 2.0;
-
-    if (logoVideo) {
-        logoVideo.addEventListener('mouseenter', () => {
-            logoVideo.playbackRate = velocidadeHover;
-        });
-
-        logoVideo.addEventListener('mouseleave', () => {
-            logoVideo.playbackRate = velocidadeNormal;
-        });
-    }
-
     const track = document.querySelector('.carousel-track');
     
     if (track) {
