@@ -82,14 +82,14 @@
     max-width: 450px;
 }
 
-.hero-video-container img {
+.hero-video-container video {
     width: 100%;
     height: auto;
-    transition: transform 0.3s ease-in-out; 
+    transition: transform 0.3s ease-in-out;
 }
 
-.hero-video-container img:hover {
-    transform: scale(1.15); 
+.hero-video-container video:hover {
+    transform: scale(1.15);
 }
 
 @media (max-width: 768px) {
